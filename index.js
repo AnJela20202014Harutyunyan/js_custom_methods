@@ -1,3 +1,4 @@
+//js custom Split
 function customSplit(word, delimiter) {
     let arr = []
     if (typeof word !== 'string') {
@@ -34,6 +35,7 @@ function customSplit(word, delimiter) {
 
 console.log(customSplit('hello world', ' '))
 
+//Js Custom Trim
 function customTrim(str) {
     let startIndex = 0;
     let endIndex = str.length - 1;
